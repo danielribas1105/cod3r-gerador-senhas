@@ -43,7 +43,7 @@ export default class Senha {
          return 1
       }
 
-      if (tamanho === 4 && tamanho >= 10) {
+      if (qtdeTipos === 4 && tamanho >= 10) {
          return 3
       }
 
